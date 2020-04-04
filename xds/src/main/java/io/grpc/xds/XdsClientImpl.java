@@ -641,7 +641,7 @@ final class XdsClientImpl extends XdsClient {
       }
     }
     if (routes != null) {
-      // Found  routes in the in-lined RouteConfiguration.
+      // Found routes in the in-lined RouteConfiguration.
       ConfigUpdate configUpdate;
       if (!enablePathMatching) {
         EnvoyProtoData.Route defaultRoute = Iterables.getLast(routes);
